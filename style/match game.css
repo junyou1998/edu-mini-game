@@ -11,6 +11,10 @@ body {
   color: #111;
 }
 
+h1 {
+  text-align: center;
+}
+
 .score {
   font-family: monospace;
   text-align: center;
@@ -73,6 +77,7 @@ body {
   margin: 0rem 0.5rem;
   cursor: move;
   transition: opacity 0.2s;
+  background-size: cover;
 }
 
 .draggable:hover {

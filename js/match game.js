@@ -78,7 +78,7 @@ const brands1 = [
     for(let i=0; i<randomDraggableBrands.length; i++) {
       draggableItems.insertAdjacentHTML("beforeend", `
 
-        <div style="background: url('./assets/match/${randomDraggableBrands[i].iconName}.png')" id="${randomDraggableBrands[i].iconName}" class="draggable" draggable="true"></div>
+        <div style="background-image: url('./assets/match/${randomDraggableBrands[i].iconName}.png')" id="${randomDraggableBrands[i].iconName}" class="draggable" draggable="true"></div>
       `);
     }
     // <i class="fab fa-${randomDraggableBrands[i].iconName} draggable" draggable="true" style="color: ${randomDraggableBrands[i].color};" id="${randomDraggableBrands[i].iconName}"></i>
@@ -151,7 +151,7 @@ const brands1 = [
       event.target.classList.add("dropped");
       draggableElement.classList.add("dragged");
       draggableElement.setAttribute("draggable", "false");
-      event.target.innerHTML = `<i class="fab fa-${draggableElementBrand}" style="color: ${draggableElement.style.color};"></i>`;
+      event.target.innerHTML = `<div class="" style="background-image: url('./assets/match/${draggableElementBrand}.png');width: 100%;height: 100%;background-size:contain; background-repeat: no-repeat;background-position: center center;"></div>`;
       correct++;  
     }
     scoreSection.style.opacity = 0;
