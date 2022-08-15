@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'zhuyin';
+    src: url('../assets/font/PHTH51.woff2');
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    background: #FFC300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+  }
+  
+  p {
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  ul {
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    li {
+      border-radius: 10px;
+      border: 5px solid #fff;
+      box-sizing: border-box;
+      margin-right: 5px;
+      padding: 20px 30px;
+      text-align: center;
+      cursor: move;
+      background: #ddd;
+      color: #000;
+    }
+  }
+  
+  .succeed{
+    margin-top: 20px;
+    text-align: center;
+    color: springgreen;
+  }
+p{
+    font-family: sans-serif, 'zhuyin';
+}
+  #chinese{
+    font-family: sans-serif, 'zhuyin';
+  }

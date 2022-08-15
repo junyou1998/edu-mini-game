@@ -81,7 +81,7 @@ const brands1 = [
         <div style="background-image: url('./assets/match/${randomDraggableBrands[i].iconName}.png')" id="${randomDraggableBrands[i].iconName}" class="draggable" draggable="true"></div>
       `);
     }
-    // <i class="fab fa-${randomDraggableBrands[i].iconName} draggable" draggable="true" style="color: ${randomDraggableBrands[i].color};" id="${randomDraggableBrands[i].iconName}"></i>
+
 
 
     // Create "matching-pairs" and append to DOM
