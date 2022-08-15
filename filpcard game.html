@@ -27,13 +27,11 @@
         <div class="game">
             <div class="card" :data-name="intro.id" v-for="(intro,index) in intros" v-if="index < 6">
                 <img class="front" :src="intro.photo" />
-                {{-- <img class="back" src="{{asset('images/card/back.svg')}}" /> --}}
                 <div class="back"></div>
             </div>
             <div class="card" :data-name="intro.id" v-for="(intro,index) in intros" v-if="index < 6">
                 <div class="front">{{intro.titleViet}}</div>
-                <!-- <div class="front">{{intro.title}}</div> -->
-                {{-- <img class="back" src="{{asset('images/card/back.svg')}}" /> --}}
+
                 <div class="back"></div>
             </div>
 
