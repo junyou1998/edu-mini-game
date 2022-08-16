@@ -16,10 +16,13 @@ body {
     align-items: center;
     background: #74CEDE;
     font-family: 'Noto Sans TC', sans-serif;
-    background-image: url('../assets/gameImg/card_bg.png');
+    background-image: url('../assets/flipcard/card_bg.png');
     // backdrop-filter: blur(3px) brightness(50%);
     background-size: cover;
     background-position: 0 bottom;
+    @media screen and (max-width:768px) { 
+        width: 100vw;
+    }
 }
 
 .zhuyin {
@@ -38,9 +41,16 @@ body {
 .headtitle {
     color: #009688;
     padding: 2em 0;
+    @media screen and (max-width:768px) {
+        padding: 0;
+    }
 }
 
-
+#app{
+    @media screen and (max-width:768px) { 
+        width: 100%;
+    }
+}
 .game{
     display: flex;
     width: 640px;
@@ -48,8 +58,9 @@ body {
     margin: auto;
     flex-wrap: wrap;
     perspective: 1000px;
-
-
+    @media screen and (max-width:768px) { 
+        width: 100%;
+    }
 }
 
 .card{
@@ -64,10 +75,10 @@ body {
     transition: transform .5s;
     border-radius: 5px;
     cursor: pointer;
-
-
-
-
+    @media screen and (max-width:768px) {
+        height: calc(25% - 10px);
+        width: calc(33.333% - 10px);
+    }
 }
 
 
