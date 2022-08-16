@@ -78,7 +78,7 @@ const brands1 = [
     for(let i=0; i<randomDraggableBrands.length; i++) {
       draggableItems.insertAdjacentHTML("beforeend", `
 
-        <div style="background-image: url('./assets/match/${randomDraggableBrands[i].iconName}.png')" id="${randomDraggableBrands[i].iconName}" class="draggable" draggable="true"></div>
+        <div style="background-image: url('./assets/match/${randomDraggableBrands[i].iconName}.png');background-repeat: no-repeat; background-size: contain" id="${randomDraggableBrands[i].iconName}" class="draggable" draggable="true"></div>
       `);
     }
 

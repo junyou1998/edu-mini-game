@@ -7,7 +7,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #eee;
+  background-color: #ffb734;
   color: #111;
 }
 
@@ -29,7 +29,7 @@ h1 {
 #play-again-btn {
   position: absolute;
   top: -0.5rem;
-  left: 50%;
+  left: 60%;
   margin-left: -50px;
   font-size: 1rem;
   font-weight: bold;
@@ -116,13 +116,13 @@ h1 {
 .droppable {
   width: 6rem;
   font-size: 4rem;
-  background-color: #fff;
-  border: 3px dashed #111;
+  background-color: #b07d21;
+  border: 3px dashed #644713;
   transition: 0.2s;
 }
 
 .droppable-hover {
-  background-color: #bee3f0;
+  background-color: #fcb32f;
   transform: scale(1.1);
 }
 
