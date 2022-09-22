@@ -1,3 +1,7 @@
+[v-cloak] {
+  display: none;
+}
+
 .element {
   display: inline-block;
   padding: 5px 10px;
@@ -40,7 +44,7 @@ body {
   position: relative;
 }
 
-i {
+.puzzle {
   color: #fff;
   position: absolute;
   font-size: 8rem;
@@ -87,4 +91,9 @@ i {
 }
 .game .msg {
   min-height: 50px;
+}
+
+.reset {
+  text-decoration: none;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

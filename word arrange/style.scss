@@ -1,4 +1,8 @@
-.element{
+[v-cloak] {
+    display: none;
+}
+
+.element {
     display: inline-block;
     padding: 5px 10px;
     margin: 5px;
@@ -7,13 +11,13 @@
     cursor: pointer;
 }
 
-.msg{
+.msg {
     color: #fff;
     font-size: 2rem;
     font-weight: 500;
 }
 
-.reply{
+.reply {
     display: inline-block;
     padding: 5px 10px;
     margin: 5px;
@@ -21,24 +25,23 @@
     background-color: rgb(250, 179, 24);
     border-radius: 3px;
     cursor: pointer;
-
 }
-body{
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     background-color: #00d48d;
 }
-#app{
+#app {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     position: relative;
 }
-i{
+.puzzle {
     color: #fff;
     position: absolute;
     font-size: 8rem;
@@ -47,40 +50,44 @@ i{
     top: 50%;
     transform: rotate(-30deg);
 }
-.puzzle-1{
+.puzzle-1 {
     left: 20%;
     top: 50%;
     transform: rotate(30deg);
     font-size: 10rem;
 }
-.game{
-    h1{
+.game {
+    h1 {
         font-size: 5rem;
         font-weight: 900;
     }
     padding: 20px 30px;
     border-radius: 8px;
-    .question{
+    .question {
         font-weight: 900;
         font-size: 2rem;
     }
-    .answer{
-        text-decoration:line-through;
+    .answer {
+        text-decoration: line-through;
         color: #999;
     }
-    .area{
+    .area {
         min-width: 300px;
         padding: 15px 0px;
         border-radius: 8px;
         min-height: 50px;
     }
-    .elements{
+    .elements {
         min-width: 300px;
         padding: 15px 0px;
         border-radius: 8px;
         min-height: 50px;
     }
-    .msg{
+    .msg {
         min-height: 50px;
     }
+}
+.reset{
+    text-decoration: none;
+    color:#fff;
 }

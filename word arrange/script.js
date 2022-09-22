@@ -2,7 +2,7 @@ let vm = new Vue({
     el: '#app',
     data:{
         question: "蘋果",
-        answer: ["A","P","P","L","E"],
+        answer: [],
         elements: [],
         reply: [],
         msg: '',
@@ -24,7 +24,7 @@ let vm = new Vue({
             temp = this.elements[index]
             this.reply.push(temp)
             this.elements.splice(index,1)
-            window.navigator.vibrate(200); 
+            window.navigator.vibrate(100); 
             if(JSON.stringify(this.reply)===JSON.stringify(this.answer)){
                 this.msg = "你好棒棒"
                 this.complete = true
@@ -35,15 +35,30 @@ let vm = new Vue({
                 temp = this.reply[index]
                 this.elements.push(temp)
                 this.reply.splice(index,1)
-                window.navigator.vibrate(200); 
+                window.navigator.vibrate(100); 
             }else{
                 this.msg = "已經答對囉"
-                window.navigator.vibrate(500); 
+                window.navigator.vibrate(200); 
             }
 
         }
     },
     mounted(){
-        this.elements = this.shuffle(Array.from(this.answer))
-    }
+        axios
+            .get('./data.json')
+            .then((res) => {
+
+                randIdx = Math.floor(Math.random()*res.data.length);
+                console.log(res.data)
+                this.answer = res.data[randIdx].answer
+                this.question = res.data[randIdx].question
+
+                this.elements = this.shuffle(Array.from(this.answer))
+            })
+            .catch(function (error) { // 
+                
+            });
+        
+    },
+    
 })
