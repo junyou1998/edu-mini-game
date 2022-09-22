@@ -49,17 +49,28 @@ body {
     right: 30%;
     top: 50%;
     transform: rotate(-30deg);
+    @media screen and (max-width:768px) { 
+        left: 50%;
+        top: 80%;
+    }
 }
 .puzzle-1 {
     left: 20%;
     top: 50%;
     transform: rotate(30deg);
     font-size: 10rem;
+    @media screen and (max-width:768px) { 
+        left: 10%;
+        top: 10%;
+    }
 }
 .game {
     h1 {
         font-size: 5rem;
         font-weight: 900;
+        @media screen and (max-width:768px) { 
+            font-size: 3rem;
+        }
     }
     padding: 20px 30px;
     border-radius: 8px;
@@ -90,4 +101,7 @@ body {
 .reset{
     text-decoration: none;
     color:#fff;
+    @media screen and (max-width:768px) { 
+        color:rgb(250, 179, 24);
+    }
 }

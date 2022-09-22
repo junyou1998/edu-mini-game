@@ -53,12 +53,24 @@ body {
   top: 50%;
   transform: rotate(-30deg);
 }
+@media screen and (max-width: 768px) {
+  .puzzle {
+    left: 50%;
+    top: 80%;
+  }
+}
 
 .puzzle-1 {
   left: 20%;
   top: 50%;
   transform: rotate(30deg);
   font-size: 10rem;
+}
+@media screen and (max-width: 768px) {
+  .puzzle-1 {
+    left: 10%;
+    top: 10%;
+  }
 }
 
 .game {
@@ -68,6 +80,11 @@ body {
 .game h1 {
   font-size: 5rem;
   font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  .game h1 {
+    font-size: 3rem;
+  }
 }
 .game .question {
   font-weight: 900;
@@ -96,4 +113,9 @@ body {
 .reset {
   text-decoration: none;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .reset {
+    color: rgb(250, 179, 24);
+  }
 }/*# sourceMappingURL=style.css.map */
