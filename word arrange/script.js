@@ -24,6 +24,7 @@ let vm = new Vue({
             temp = this.elements[index]
             this.reply.push(temp)
             this.elements.splice(index,1)
+            window.navigator.vibrate(200); 
             if(JSON.stringify(this.reply)===JSON.stringify(this.answer)){
                 this.msg = "你好棒棒"
                 this.complete = true
@@ -34,8 +35,10 @@ let vm = new Vue({
                 temp = this.reply[index]
                 this.elements.push(temp)
                 this.reply.splice(index,1)
+                window.navigator.vibrate(200); 
             }else{
                 this.msg = "已經答對囉"
+                window.navigator.vibrate(500); 
             }
 
         }
