@@ -7,6 +7,8 @@ let vm = new Vue({
         firstCard: "",
         secondCard: "",
         pairs: 6,
+        success: false,
+        count: 0
     },
     methods: {
         shuffle(array) {
@@ -39,11 +41,13 @@ let vm = new Vue({
             } else {
                 this.secondCard = e.currentTarget;
                 this.checkForMatch();
+                if(this.count === this.pairs) this.success=true
             }
         },
         checkForMatch() {
             if (this.firstCard.dataset.name === this.secondCard.dataset.name) {
                 this.disableCards();
+                this.count++
             } else {
                 this.unFlipCards();
             }
@@ -62,6 +66,7 @@ let vm = new Vue({
             this.resetBoard();
         },
         initData(){
+            this.success = false
             axios
             .get("./data.json")
             .then((res) => {

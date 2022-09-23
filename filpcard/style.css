@@ -114,7 +114,7 @@ h1 {
 
 .poker-1 {
   left: 20%;
-  top: 8%;
+  top: 20%;
   transform: rotate(30deg);
   font-size: 10rem;
   color: #444;
@@ -124,4 +124,26 @@ h1 {
     left: 50%;
     top: 60%;
   }
+}
+
+.msg {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 3rem;
+  border-radius: 15px;
+}
+
+.reset {
+  text-decoration: none;
+  color: #f7eddf;
+  margin-left: 15px;
 }/*# sourceMappingURL=style.css.map */

@@ -39,7 +39,7 @@
         "id": 7,
         "title": "枕頭",
         "titleViet": "枕頭",
-        "photo": "./images/枕頭.jpg"
+        "photo": "./images/枕頭.png"
     },
     {
         "id": 8,
@@ -51,13 +51,13 @@
         "id": 9,
         "title": "國旗",
         "titleViet": "國旗",
-        "photo": "./images/國旗.jpg"
+        "photo": "./images/國旗.png"
     },
     {
         "id": 10,
         "title": "涼亭",
         "titleViet": "涼亭",
-        "photo": "./images/涼亭.jpg"
+        "photo": "./images/涼亭.png"
     },
     {
         "id": 11,
@@ -69,6 +69,6 @@
         "id": 12,
         "title": "禮拜",
         "titleViet": "禮拜",
-        "photo": "./images/禮拜.jpg"
+        "photo": "./images/禮拜.png"
     }
 ]
