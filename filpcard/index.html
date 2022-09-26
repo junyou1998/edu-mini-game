@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#00d48d" />
+        <meta name="theme-color" content="#f7eddf" />
         <title>翻翻樂</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +15,12 @@
     <body>
         <div id="app">
             <h1>翻翻樂</h1>
+            <select v-model="pairs" name="" id="" @change="initData()">
+                <option value="6">3*4</option>
+                <option value="8">4*4</option>
+                <option value="10">5*4</option>
+                <option value="12">6*4</option>
+            </select>
             <span class="poker">♥</span>
             <span class="poker poker-1">♠</span>
             <div class="game" v-cloak>

@@ -70,6 +70,8 @@ let vm = new Vue({
             axios
             .get("./data.json")
             .then((res) => {
+                this.resetBoard();
+
                 console.log(res.data);
                 data = this.shuffle(res.data).slice(0,this.pairs);
                 for (let index = 0; index < data.length; index++) {
@@ -77,6 +79,13 @@ let vm = new Vue({
                 }
                 this.intros = data;
                 this.randomCard();
+
+                let cards = document.querySelectorAll('.card')
+                console.log(cards)
+                cards.forEach(card => {
+                    card.classList.remove('flip')
+                    card.style.pointerEvents = "auto"
+                });
             })
             .catch(function (error) {
                 console.log(error);
