@@ -37,15 +37,15 @@ let vm = new Vue({
             this.elements.push(temp)
             this.reply.splice(index,1)
             window.navigator.vibrate(100); 
-            // if(!this.complete){
-            //     temp = this.reply[index]
-            //     this.elements.push(temp)
-            //     this.reply.splice(index,1)
-            //     window.navigator.vibrate(100); 
-            // }else{
-            //     this.msg = "已經答對囉"
-            //     window.navigator.vibrate(200); 
-            // }
+            if(!this.complete){
+                temp = this.reply[index]
+                this.elements.push(temp)
+                this.reply.splice(index,1)
+                window.navigator.vibrate(100); 
+            }else{
+                this.msg = "已經答對囉"
+                window.navigator.vibrate(200); 
+            }
 
         }
     },
