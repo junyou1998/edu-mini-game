@@ -26,8 +26,8 @@ let vm = new Vue({
             this.elements.splice(index,1)
             window.navigator.vibrate(100); 
             if(JSON.stringify(this.reply)===JSON.stringify(this.answer)){
-                // this.msg = "你好棒"
-                this.msg = ""
+                this.msg = "恭喜答對囉!"
+                // this.msg = ""
                 console.log('good')
                 this.complete = true
             }
