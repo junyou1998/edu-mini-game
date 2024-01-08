@@ -61,8 +61,7 @@ h1 {
   position: absolute;
   border-radius: 5px;
   background-color: #fff;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .card:active {

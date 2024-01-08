@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maze</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,900&display=swap&subset=chinese-traditional"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="game">
+        <h2 class='loadfont'>載入字體</h2>
+        <div class="map">
+        </div>
+    </div>
+    <div id="app">
+        <div class="modal" id="initModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="alert alert-primary">迷宮遊戲</div>
+                    </div>
+                    <div class="modal-body">
+                        <p class="zhuyin">
+                            你準備好要進入迷宮探索越南文化的風貌了嗎？在迷宮當中，請你盡可能地找到每一個寶箱，並且仔細地閱讀寶箱中提供的線索，這些線索將幫助你更加了解越南的文化，準備好進入迷宮的話，就點擊”開始遊戲”吧！
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button @click="popup()" type="button" class="btn btn-primary"
+                            data-dismiss="modal">開始遊戲</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" v-bind:id="'modal_'+(intro.id)" tabindex="-1" role="dialog" v-for="(intro,index) in intros"
+            v-if="index < 10">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="alert alert-primary">@{{intro.category}}</div>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="zhuyin">@{{intro.chinese}}</p>
+                        <p class="viet">@{{intro.viet}}</p>
+                        <img class="intro_img" :src="intro.photo" alt="">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button @click="popup()" type="button" class="btn btn-success" data-dismiss="modal">了解</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="endModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="alert alert-primary">遊戲結束</div>
+                    </div>
+                    <div class="modal-body">
+                        <p class="zhuyin">
+                            <h1>完成遊戲</h1>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-outline-success" href="/maze">再玩一次</a>
+                        <a class="btn btn-success" href="/">離開遊戲</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="touchControl" id="touchControl"></div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

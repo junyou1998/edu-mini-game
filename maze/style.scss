@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'zhuyin';
+    src: url('./PHTH51.woff2');
+}
+
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.zhuyin {
+    font-family: sans-serif, 'zhuyin';
+    font-weight: bold;
+}
+
+.loadfont {
+    font-family: 'zhuyin';
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 60, 98);
+    background-image: url('./images/maze_bg.png');
+    background-size: cover;
+    background-position: 0 bottom;
+    color: rgb(42, 42, 42);
+    overscroll-behavior-y: contain;
+
+    @media(max-width: 768px) {
+        height: calc(var(--vh) * 100);
+    }
+
+}
+
+.map {
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, calc(100vh / 12));
+    grid-template-rows: repeat(12, calc(100vh / 12));
+    box-shadow: 0px 0px 25px rgba(black, .5);
+    background-color: #e5e5e5;
+
+    @media(max-width: 768px) {
+        height: calc(var(--vw) * 100);
+        width: calc(var(--vw) * 100);
+        grid-template-columns: repeat(12, calc(var(--vw) * 100 / 12));
+        grid-template-rows: repeat(12, calc(var(--vw) * 100 / 12));
+    }
+
+    // border: solid black 15px
+}
+
+.block {
+    width: calc(100vh / 12);
+    height: calc(100vh / 12);
+    // border: solid black 1px;
+    background-color: #e5e5e5;
+
+    @media(max-width: 768px) {
+        width: calc(var(--vw) * 100 / 12);
+        height: calc(var(--vw) * 100 / 12);
+    }
+}
+
+.road {
+    background-color: #e5e5e5;
+}
+
+.wall {
+    background-color: rgb(156, 153, 150);
+    box-shadow: inset 0px 0px 0px 3px rgba(black, .1);
+    // background-image: url('../img/wall.png');
+    // background-size: cover;
+}
+
+.exit {
+    background-size: cover;
+    // opacity: 0;
+    background-color: #e5e5e5;
+    transition: .5s;
+
+    &.ready {
+        background-image: url('./images/門.png');
+
+    }
+}
+
+.player {
+    &::after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        // background-image: url('../img/player_f.png');
+        background-size: cover;
+    }
+
+    &.player_1::after {
+        background-image: url('./images/player_f.png');
+    }
+
+    &.player_2::after {
+        background-image: url('./images/player_m.png');
+    }
+}
+
+.obj {
+    background-image: url('./images/obj_1.png');
+    background-size: cover;
+
+    &.type_1 {
+        background-image: url('./images/type_1.png');
+    }
+
+    &.type_2 {
+        background-image: url('./images/type_2.png');
+    }
+
+    &.type_3 {
+        background-image: url('./images/type_3.png');
+    }
+
+    &.type_4 {
+        background-image: url('./images/type_4.png');
+    }
+
+    &.type_5 {
+        background-image: url('./images/type_5.png');
+    }
+
+    &.type_6 {
+        background-image: url('./images/type_6.png');
+    }
+}
+
+
+.game {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.touchControl {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // background-color: rgba(255, 255, 255, 0.472);
+}
+
+.intro_img {
+    width: 100%;
+}

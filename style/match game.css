@@ -105,7 +105,6 @@ h1 {
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -134,7 +133,6 @@ h1 {
 .dragged {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   opacity: 0.1;
   cursor: default;

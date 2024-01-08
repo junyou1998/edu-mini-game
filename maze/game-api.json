@@ -1,0 +1,170 @@
+[
+    {
+    "id": 12,
+    "title": "下龍灣",
+    "chinese": "下龍灣：總面積達到1553平方公里，共有近兩千座有名和無名的大小島嶼。這數千座島嶼是大自然的偉大造型藝術作品，構成了美輪美奐的下龍奇觀。",
+    "viet": "Vịnh Hạ Long: có tổng diện tích là 1553 mét vuông, có hơn 2000 hòn đảo lớn nhỏ bao gồm cả đảo có tên và không tên. Tất cả những đảo này đều là kiệt tác nghệ thuật của tự nhiên tạo nên một Vịnh Hạ Long kỳ vĩ.",
+    "category": "越南自然景觀",
+    "photo": "./images/5ef0c8b9269db_下龍灣.png"
+    },
+    {
+    "id": 13,
+    "title": "文廟",
+    "chinese": "文廟：位於河內市還劍湖西側的一座傳統孔廟建築。1010年越南李朝開國君主李太祖下詔遷都升龍（今河內市），並要求在城內興建孔廟。1070年建成文廟，供奉儒聖孔子，兼具廟宇與書院。",
+    "viet": "Văn Miếu: là nơi thờ Khổng Tử nằm ở phía Tây Hồ Hoàn Kiếm-Hà Nội. Vào năm 1010 vua Lý Thái Tổ là vị vua sáng lập ra đời nhà Lý hạ lệnh rời đô đến thành Thăng Long (Hà Nội ngày nay) và yêu cầu lập đền thờ Khổng Tử trong thành, đến năm 1070 Văn Miếu được hoàn thành, thờ Khổng Tử, đồng thời vừa là miếu vừa là trường học.",
+    "category": "越南建築",
+    "photo": "./images/5ef0c8e3e6703_文廟.png"
+    },
+    {
+    "id": 14,
+    "title": "水上木偶戲",
+    "chinese": "水上木偶戲：水上木偶戲是一種在民間流行的藝術表演，古時候都在農閒的時候或是過年過節、廟會的時候表演。表演時舞台搭在池塘中間，表演者在水中使用長竹竿來控制木偶。內容大多數為越南歷史故事或傳說，或描述古時候的民間生活。",
+    "viet": "Múa rối nước: là một loại hình biểu diễn nghệ thuật truyền thống của dân gian. Trước đây thường được biểu diễn vào những dịp nông nhàn, hội hè hoặc lễ tết. Khi biểu diễn người ta dựng sân khấu ở giữa ao, các diễn viên múa rối nước dùng 1 chiếc gậy dài để điều khiển con rối. Nội dung chủ yếu là diễn lại những câu chuyện lịch sử, các truyền thuyết, hoặc tái hiện đời sống của người dân thời cổ xưa.",
+    "category": "越南藝術",
+    "photo": "./images/5ef0c8fb8148d_水上木偶戲.png"
+    },
+    {
+    "id": 15,
+    "title": "西貢聖母聖殿主教座堂",
+    "chinese": "西貢聖母聖殿主教座堂：位於胡志明市中心，教堂所用的紅磚當時全部從法國進口，受到法國影響的建築風格，有哥德式的尖塔，暱稱紅教堂。",
+    "viet": "Nhà thờ Đức Bà – Sài Gòn: nằm ở trung tâm Thành phố Hồ Chí Minh, những viên gạch đỏ được dùng để xây nhà thờ đều được nhập khẩu từ Pháp, là tòa kiến trúc mang nhiều ảnh hưởng của kiến trúc Pháp, có nét đặc trưng của kiến trúc Gô-tích.",
+    "category": "越南建築",
+    "photo": "./images/5ef0c9187c14f_西貢聖母聖殿主教座堂.png"
+    },
+    {
+    "id": 16,
+    "title": "河內",
+    "chinese": "河內：是座古都；越南傳統文化的搖藍，在紅河右岸。1010年李朝定都於此，名為升龍城；1831年阮朝定為東京，改名河內，現為越南首都，有國際機場。",
+    "viet": "Hà Nội: là một thành phố cổ kính, là cái nôi văn hóa của Việt Nam, nằm bên tả ngạn sông Hồng. Năm 1010 nhà Lý lấy nơi đây làm kinh thành, lấy tên là thành Thăng Long, đến năm 1831 nhà Nguyễn.",
+    "category": "越南城市",
+    "photo": "./images/5ef0c9309297a_河內.png"
+    },
+    {
+    "id": 17,
+    "title": "河粉",
+    "chinese": "河粉：是以一種大米製成的。越南人常用這種河粉佐以生芽菜、香菜、蔥，並配上切片牛肉或雞絲食用。",
+    "viet": "Phở: Là món ăn được chế biến từ gạo. Người Việt thường dùng món này kèm với giá đỗ, rau thơm, hành, thịt bò thái mỏng hoặc thịt gà xé sợi.",
+    "category": "越南飲食",
+    "photo": "./images/5ef0c948453b7_河粉.png"
+    },
+    {
+    "id": 18,
+    "title": "長衫",
+    "chinese": "長衫：越南人獨特的傳統服飾，通常以絲綢類質料輕盈軟薄的布料裁剪，衣服自腰以下開高衩，配上寬鬆長褲。",
+    "viet": "Áo dài: là chiếc áo truyền thống rất độc đáo của người Việt Nam, thường được may bằng chất liệu lụa mềm mại và nhẹ nhàng, áo được xẻ cao từ eo  xuống, mặc kết hợp với quần lụa rộng.",
+    "category": "越南服飾",
+    "photo": "./images/5ef0c95bdce78_長衫.png"
+    },
+    {
+    "id": 19,
+    "title": "美山遺蹟區",
+    "chinese": "美山遺迹區：是占婆國王在公元4世紀和14世紀之間建造，一系列被遺棄和部分毀壞的印度教寺廟遺址。同時，也因為曾有多達70座寺廟林立在那裡而被認為是一個神聖的地方。",
+    "viet": "Khu di tích Mỹ Sơn: là các công trình kiến trúc được quốc vương Chăm Pa xây dựng từ thế kỷ IV đến thế kỷ XIV, một loạt kiến trúc đền đài mang phong cách Ấn Độ đã bị lãng quên, một phần đã bị hủy hoại. Nơi đây đã từng có hơn 70 đền tháp nên còn được gọi là thánh địa Mỹ Sơn.",
+    "category": "越南建築",
+    "photo": "./images/5ef0c97734297_美山遺蹟區.png"
+    },
+    {
+    "id": 20,
+    "title": "胡志明市",
+    "chinese": "胡志明市：始建於17世紀，原名西貢，有“東方明珠”之稱。西貢河流經此城，河畔西貢港馳名東南亞。現在胡志明市是越南重要的經濟、國際交易、及旅遊中心。",
+    "viet": "Thành phố Hồ Chí Minh: bắt đầu có từ thế kỷ 17, tên cũ là Sài Gòn, còn được gọi là hòn ngọc Viễn Đông. Dòng sông Sài Gòn chảy qua đây, cảng Sài Gòn cũng là một địa danh nổi tiếng Đông Nam Á. Hiện tại thành phố Hồ Chí Minh là trung tâm kinh tế, thương mại và du lịch quan trọng của Việt Nam.",
+    "category": "越南城市",
+    "photo": "./images/5ef0c99781c6b_胡志明市.png"
+    },
+    {
+    "id": 21,
+    "title": "峰牙",
+    "chinese": "峰牙－己榜國家公園：越南中部廣平省的國家公園，總面積為343,300公頃。 除了地質，地形，地貌的歷史價值外，還擁有自然和雄偉的景觀，尤其是Son Doong洞穴，目前是全世界最大的洞穴。",
+    "viet": "Vườn quốc gia Phong Nha – Kẻ Bàng: là vườn quốc gia nằm tại tỉnh Quảng Bình thuộc miền Trung Việt Nam, tổng diện tích là 343,300 héc ta. Ngoài giá trị lịch sử về địa chất, địa hình và diện mạo ra, nơi đây có cảnh quan hùng vĩ và tự nhiên, đặc biệt là động Sơn Đoòng được coi là hang động lớn nhất thế giới hiện nay.",
+    "category": "越南自然景觀",
+    "photo": "./images/5ef0c9dad9bef_峰牙.png"
+    },
+    {
+    "id": 22,
+    "title": "峴港",
+    "chinese": "峴港：越南第二大港口城市，是越南中部的中心城市，該城市港闊水深，有國際機場。被稱為越南的第三大門口。該城市是四季如春的越南最佳的海濱場地之一。",
+    "viet": "Đà Nẵng: là thành phố cảng lớn thứ hai của Việt Nam và là trung tâm lớn nhất của miền Trung, nơi đây cảng rộng nước lớn, có sân bay quốc tế. Được đánh giá là cảng lớn thứ ba của Việt Nam, thời tiết đẹp quanh năm, là một trong những thành phố biển đẹp của Việt Nam.",
+    "category": "越南城市",
+    "photo": "./images/5ef0c9fa66d50_峴港.png"
+    },
+    {
+    "id": 23,
+    "title": "書法",
+    "chinese": "書法(漢字和喃字)：現代的越南書法也常常書寫建立在拉丁字母基礎上的國語字，以前越南的書寫系統由漢字和喃字組成，像是春節寫春聯，還是祭拜寫祈禱文。",
+    "viet": "Thư pháp (chữ Hán và chữ Nôm): Ngày nay thư pháp hiện đại của Việt Nam cũng được viết bằng chữ quốc ngữ với những ký tự la tinh, trước đây thư pháp của Việt Nam đều viết chữ Hán hoặc chữ Nôm, ví dụ như khi viết câu đối hoặc văn tế.",
+    "category": "越南藝術",
+    "photo": "./images/5ef0ca0cde361_書法.png"
+    },
+    {
+    "id": 24,
+    "title": "笠帽",
+    "chinese": "笠帽：越南斗笠是圓錐狀，以成熟的竹子作為胎骨、再附上一層層堅韌葵絲編成的寬大帽子，並使用絲線固定，不管是耕作的農夫、賣菜的小販、曬鹽捕魚採蚵的婦人，都會戴斗笠。",
+    "viet": "Nón lá: Nón lá Việt Nam có hình chóp, được làm từ khung uốn bởi các nan tre rồi kẹp những lớp lá nón và khâu bằng cước, dù là nông dân hay những người bán hàng, người đánh cá bắt nghêu đều đội nón lá.",
+    "category": "越南服飾",
+    "photo": "./images/5ef0ca1ff21e6_笠帽.png"
+    },
+    {
+    "id": 25,
+    "title": "魚露",
+    "chinese": "魚露：用新鮮鯷魚或其他魚類和鹽層疊放入桶中，以竹架或石塊壓著，經曝曬後，微生物會開始作用，使魚分解出液體，經數月或一年以上的時間發酵完成。",
+    "viet": "Nước mắm: được làm bằng cách dùng cá cơm hoặc các loại cá khác ướp với nhiều lớp muối, dùng phên tre hoặc đá để nén rồi phơi nắng đợi cá thủy phân, tổng thời gian khoảng mấy tháng đến 1 năm thì sẽ cho ra thành phẩm là nước mắm.",
+    "category": "越南飲食",
+    "photo": "./images/5ef0ca332cfb3_魚露.png"
+    },
+    {
+    "id": 26,
+    "title": "越南米線",
+    "chinese": "越南米線：將清燙過的米線淋上香油、醬油、魚露、還有白醋，撒上大把大把的豆芽菜、青蔥等蔬菜、還有炸的金黃酥脆的蒜頭片。",
+    "viet": "Bún trộn: bún được trần qua rồi bỏ vào đó chút dầu mè, xì dầu, dấm, giá đỗ, hành hoa và tỏi chiên rồi trộn đều.",
+    "category": "越南飲食",
+    "photo": "./images/5ef0ca4a6416b_越南米線.png"
+    },
+    {
+    "id": 27,
+    "title": "越南武術",
+    "chinese": "越南武術─越武道：越武道技術跟其他拳種門派比起來，有更自由開放的攻擊技巧。越武道的經典招式是雙腿躍起利用雙腿夾擊對手的頸部，瞬間把對手擊倒。",
+    "viet": "Võ thuật Việt Nam – Vovinam: so với các môn phái võ thuật tay không khác thì kỹ xảo tấn công của Vovinam có phần tự do và phóng khoáng hơn, đòn tấn công độc đáo của môn phái này là dùng đùi để kẹp đầu của đối phương.",
+    "category": "越南藝術",
+    "photo": "./images/5ef0ca629e346_越南武術.png"
+    },
+    {
+    "id": 28,
+    "title": "越南法國麵包",
+    "chinese": "越南法國麵包：用烤的酥脆的法國麵包當作基底，裡面夾入越式火腿、小黃瓜、肉鬆、辣椒、香料還有美奶滋。",
+    "viet": "Bánh mì: Là món bánh mì được nướng giòn rồi kẹp những nguyên liệu như: giò lụa, dưa chuột, ruốc, ớt, rau thơm và sốt salad.",
+    "category": "越南飲食",
+    "photo": "./images/5ef0ca779fa86_越南法國麵包.png"
+    },
+    {
+    "id": 29,
+    "title": "順化歷史建築群",
+    "chinese": "順化皇城：順化的皇城沿著香江而建，皇宮朝向東南方，其皇城的邊緣部分與河水並沒有採取截然分開的方式，而是將河水與建築界線的關係進行了模糊化的處理，過渡自然。",
+    "viet": "Hoành thành Huế: Hoàng thành Huế được xây dựng dọc theo dòng sông Hương, hoàng cung được xây theo hướng đông nam, bên ngoài hoành thành với bờ sông không xây dựng tường ngăn cách rõ ràng khiến toàn cảnh nhìn rất tự nhiên.",
+    "category": "越南建築",
+    "photo": "./images/5ef0caa3c4fc2_順化歷史建築群.png"
+    },
+    {
+    "id": 30,
+    "title": "會安古鎮",
+    "chinese": "會安古鎮：是15世紀到19世紀東南亞保存完好的國際貿易港，其建築和街道樣式，受到土洋結合風格的影響，這種風格也體現在整個遺址的建築中，曾是歷史上著名的東方大港。",
+    "viet": "Phổ cổ Hội An: Là thương cảng quốc tế sầm uất được bảo tồn khá tốt ở thời kỳ thế kỷ XV đến thế kỷ XIX, kiến trúc nơi đây là kiến trúc truyền thống cổ xưa có chút ảnh hưởng của kiến trúc phương Tây, kiến trúc này cũng cho thấy đây là thương cảng nổi tiếng một thời của phương Đông.",
+    "category": "越南建築",
+    "photo": "./images/5ef0cabab122a_會安古鎮.png"
+    },
+    {
+    "id": 31,
+    "title": "嘲劇",
+    "chinese": "嘲劇：越南傳統的民族戲曲形式，通常是帶有歌舞的戲劇形式，且帶有嘲諷和調笑的意味。",
+    "viet": "Chèo: là một loại nhạc kịch truyền thống của Việt Nam, thường là hình thức kịch có ca và có các động tác múa, thường có nội dung mang tính chất trào phúng hoặc gây cười.",
+    "category": "越南藝術",
+    "photo": "./images/5ef0cad02e9bb_嘲劇.png"
+    },
+    {
+    "id": 32,
+    "title": "鮮蝦春捲",
+    "chinese": "鮮蝦春捲：用薄薄的春捲皮裹上生菜、香菜、米線、豬肉、還有一大隻蝦仁，再沾沾醬或魚露食用。",
+    "viet": "Gỏi cuốn tôm thịt: Là món ăn dùng bánh tráng để cuốn rau sống, rau thơm, tôm, thịt, bún rồi chấm với nước chấm.",
+    "category": "越南飲食",
+    "photo": "./images/5ef0cae5db8a0_鮮蝦春捲.png"
+    }
+    ]
