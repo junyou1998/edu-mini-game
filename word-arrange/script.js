@@ -33,10 +33,6 @@ let vm = new Vue({
             }
         },
         back(index){
-            temp = this.reply[index]
-            this.elements.push(temp)
-            this.reply.splice(index,1)
-            // window.navigator.vibrate(100); 
             if(!this.complete){
                 temp = this.reply[index]
                 this.elements.push(temp)
@@ -46,8 +42,8 @@ let vm = new Vue({
                 this.msg = "已經答對囉"
                 // window.navigator.vibrate(200); 
             }
-
         }
+        
     },
     mounted(){
         axios
